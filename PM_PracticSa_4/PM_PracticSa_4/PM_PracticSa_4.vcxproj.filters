@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Object Include="..\..\..\..\..\..\Irvine\Lib32\Irvine32_Library\Irvine32.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MACROS.inc" />
+    <None Include="PM_Practicas_4.lst" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="P0_plantilla.asm" />
+    <MASM Include="P2_Validacion_rango.asm" />
+    <MASM Include="P4_suma_matriz_fila.asm" />
+    <MASM Include="P1_suma_E_arreglo.asm" />
+    <MASM Include="P3_sumaMatriz.asm" />
+    <MASM Include="P5_buscar_Mayores.asm" />
+    <MASM Include="P6_pares.asm" />
+    <MASM Include="ProyectoFinal.asm" />
+    <MASM Include="PF.asm" />
+    <MASM Include="despy.asm" />
+  </ItemGroup>
+</Project>
